@@ -24,8 +24,11 @@ import {
     deletePostSchema,
 } from "./schema/post";
 
+// graphql-tools apollo-server-express graphql graphql-import-node swagger-ui-express @types/swagger-ui-express mysql2 @types/validator sequelize @types/sequelize express-fileupload @types/express-fileupload
+
 function routes(app: Express) {
     app.get("/health", (req: Request, res: Response) => {
+        // cd documents & cd new-node & cd typscript-node & cd one
         res.send("100% healthy");
     }); 
 
